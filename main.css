@@ -1,28 +1,25 @@
 .header {
-  background-image: linear-gradient(0,#fe6433, #f53e2d) ;
+  background-image: linear-gradient(0, #fe6433, #f53e2d);
   height: 120px;
-  
 }
-.header__navbar-list{
+.header__navbar-list {
   list-style: none;
   padding-left: 0;
 }
-.header__navbar-item{
+.header__navbar-item {
   margin: 0 8px;
   position: relative;
   min-height: 20px;
-
 }
-.header__navbar-item ,
-.header__navbar-item-link ,
-.header__navbar-icon-link{
+.header__navbar-item,
+.header__navbar-item-link,
+.header__navbar-icon-link {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
 }
 
-
-.header__navbar-item ,
+.header__navbar-item,
 .header__navbar-item-link {
   display: inline-block;
   font-size: 1.4rem;
@@ -30,10 +27,10 @@
   text-decoration: none;
   font-weight: 300;
 }
-.header__navbar-item:hover ,
+.header__navbar-item:hover,
 .header__navbar-icon-link:hover,
-.header__navbar-item-link:hover{
-  color: hsla(0, 0%, 100%, .7);
+.header__navbar-item-link:hover {
+  color: hsla(0, 0%, 100%, 0.7);
   cursor: pointer;
 }
 
@@ -45,26 +42,51 @@ nav.header__navbar {
   padding-top: 10px;
 }
 .header__navbar-item--strong {
-font-weight: 400;
+  font-weight: 400;
 }
-.header__navbar-item--separate::after{
-content:"" ;
-display: block;
-position: absolute;
-width: 1px;
-height: 14px;
-background-color: #fa8e82;
-right: -11px;
-top: 1px;
+.header__navbar-item--separate::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 14px;
+  background-color: #fa8e82;
+  right: -11px;
+  top: 1px;
 }
-.header__navbar-icon-link{
+.header__navbar-icon-link {
   color: #fff;
 }
-.header__navbar-icon{
+.header__navbar-icon {
   font-size: 1.8rem;
   margin: 0 3px;
 }
-.header__navbar-title--no-pointer{
+.header__navbar-title--no-pointer {
   cursor: text;
   color: var(--white-color);
+}
+
+/* Header Qr code */
+.header__qr {
+  background-color: var(--white-color);
+  width: 185px;
+  position: absolute;
+  left: 20px;
+  top: 100;
+  border-radius: 1px;
+  display: none;
+}
+.header__qr-img {
+  width: 185px;
+} 
+.header__qr-apps {
+}
+.header__qr-dowload-img {
+  width: 185px;
+  height: 26px;
+  padding-top: 21px;
+}
+.header__navbar-item--has-qr:hover{
+  
+
 }
