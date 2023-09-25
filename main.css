@@ -86,7 +86,7 @@ nav.header__navbar {
   height: 26px;
   padding-top: 21px;
 }
-.header__navbar-item--has-qr:hover{
-  
+.header__navbar-item--has-qr:hover .header__qr{
+display: block;
 
 }
