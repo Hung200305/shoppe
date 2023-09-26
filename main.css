@@ -126,13 +126,27 @@ nav.header__navbar {
 }
 .header__notify-link {
   display: flex;
+  background-color: rgb(238, 77, 45 ,0.08);
+  text-decoration: none;
+  width: 100%;
 }
 .header__notify-img {
   width: 48px;
+  object-fit: contain;
+  padding: 12px;
 }
 .header__notify-info {
+  margin-left: 12px;
+  padding-top: 9px;
 }
 .header__notify-name {
+  font-weight: 400;
+  display: block;
+  font-size: 1.4rem;
+  color: var(--black-color);
 }
 .header__notify-description {
+  font-size: 1.2rem;
+  color: #756f6e;
+  line-height: 1.6rem;
 }
