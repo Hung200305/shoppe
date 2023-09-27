@@ -46,9 +46,9 @@
 
         </ul>
         <ul class="header__navbar-list">
-          <li class="header__navbar-item">
+          <li class="header__navbar-item header__navbar-item--has-notify">
+            <i class="header__navbar-icon fa-regular fa-bell"></i>
             <a href="" class="header__navbar-item-link">Thông báo
-              <i class="header__navbar-icon fa-regular fa-bell"></i>
             </a>
             <div class="header__notify">
               <header class="header__notify-header">
@@ -56,7 +56,7 @@
               </header>
               <ul class="header__notify-list">
                 <li class="header__notify-item ">
-                  <a href="" class="header__notify-link">
+                  <a href="" class="header__notify-link header__notify-item--viewed ">
                     <img src="mẫu 1.jpg" alt="" class="header__notify-img">
                     <div class="header__notify-info">
                       <span class="header__notify-name">Quần xinh phong cách Hàn Quốc </span>
@@ -66,7 +66,7 @@
                   </a>
                 </li>
                 <li class="header__notify-item ">
-                  <a href="" class="header__notify-link">
+                  <a href="" class="header__notify-link header__notify-item--viewed">
                     <img src="mẫu 1.jpg" alt="" class="header__notify-img">
                     <div class="header__notify-info">
                       <span class="header__notify-name">Quần xinh phong cách Hàn Quốc </span>
@@ -76,7 +76,7 @@
                   </a>
                 </li>
                 <li class="header__notify-item ">
-                  <a href="" class="header__notify-link">
+                  <a href="" class="header__notify-link header__notify-item--viewed">
                     <img src="mẫu 1.jpg" alt="" class="header__notify-img">
                     <div class="header__notify-info">
                       <span class="header__notify-name">Quần xinh phong cách Hàn Quốc </span>
@@ -86,7 +86,7 @@
                   </a>
                 </li>
                 <li class="header__notify-item ">
-                  <a href="" class="header__notify-link">
+                  <a href="" class="header__notify-link header__notify-item--viewed">
                     <img src="mẫu 1.jpg" alt="" class="header__notify-img">
                     <div class="header__notify-info">
                       <span class="header__notify-name">Quần xinh phong cách Hàn Quốc </span>
@@ -96,7 +96,7 @@
                   </a>
                 </li>
                 <li class="header__notify-item ">
-                  <a href="" class="header__notify-link">
+                  <a href="" class="header__notify-link header__notify-item--viewed">
                     <img src="mẫu 1.jpg" alt="" class="header__notify-img">
                     <div class="header__notify-info">
                       <span class="header__notify-name">Quần xinh phong cách Hàn Quốc </span>
@@ -107,10 +107,14 @@
                 </li>
 
               </ul>
+              <footer class="header__notify-footer">
+                <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+              </footer>
 
             </div>
           </li>
           <li class="header__navbar-item">
+            <i class="fa-regular fa-circle-question"></i>
             <a href="" class="header__navbar-item-link">Trợ giúp</a>
           </li>
           <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
@@ -127,5 +131,69 @@
   <footer class="footer">
 
   </footer>
+  <!-- Modal layout -->
+  <div class="modal">
+    <div class="modal__overlay">
+
+    </div>
+    <div class="modal__body">
+
+
+      <!-- Authen form  -->
+
+      <div class="auth_form">
+        <div class="auth-form__container">
+
+          <div class="auth-form__header">
+            <h3 class="auth_form__heading">Đăng Ký</h3>
+            <span class="auth-form__switch-btn">Đăng nhập</span>
+          </div>
+
+          <div class="auth-form__form">
+            <div class="auth-form__group">
+              <input type="text" class="auth-form__input " placeholder="Số Điện Thoại">
+            </div>
+            <div class="auth-form__group">
+              <input type="password" class="auth-form__input " placeholder="Mật khẩu của bạn ">
+            </div>
+            <div class="auth-form__group">
+              <input type="password" class="auth-form__input " placeholder="Nhập lại mật khẩu ">
+            </div>
+          </div>
+          <div class="auth-form__aside">
+            <p class="auth-form__policy-text">Bằng việc đăng kí bạn đã đồng ý với Shoppe về
+              <a href="" class="auth-form__text-link">Điều khoản dịch vụ </a>&
+              <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+            </p>
+
+          </div>
+          <div class="auth-form__controls">
+            <button class="btn">TRỞ LẠI</button>
+            <button class="btn btn--primary">ĐĂNG KÍ</button>
+          </div>
+          <div class="auth-form__socials">
+            <a href="" class="btn btn--with-icon">
+              <i class="fa-brands fa-square-facebook"></i>
+              Kết nối với facebook
+            </a>
+            <a href="" class="btn btn--with-icon">
+              <i class="fa-brands fa-square-google-plus"></i>
+              Kết nối với Google
+            </a>
+
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+    </div>
+  </div>
 </body>
 </html>
