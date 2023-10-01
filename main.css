@@ -213,7 +213,7 @@ nav.header__navbar {
 }
 /* Authen form  */
 .auth-form__container{
-  padding: 0 32px;
+  padding: 16px 32px 0;
 }
 .auth-form__header{
   display: flex;
@@ -229,6 +229,9 @@ color: var(--text-color);
 }
 .auth_form {
 width: 500px;
+background-color: var(--white-color);
+border-radius: 3px;
+overflow: hidden;
 }
 .auth-form__switch-btn {
 font-size: 1.6rem;
@@ -271,7 +274,7 @@ color: var(--primary-color);
 
 }
 .auth-form__controls {
-margin-top: 80px;
+margin: 80px 0 20px;
 display: flex;
 justify-content: flex-end;
 }
@@ -286,10 +289,44 @@ justify-content: flex-end;
   padding: 12px 36px;
   display: flex;
   justify-content: space-between;
+  margin:0 -32px;
+  
 }
 .btn--with-icon {
 
 }
 .auth-form__controls-back{
 margin-right: 8px;
+}
+.auth-form__socials-icon{
+font-size: 1.8rem;
+}
+.btn.auth-form__socials--facebook
+.auth-form__socials-icon{
+ color: var(--white-color);
+}
+.btn.auth-form__socials--facebook{
+  background-color:#3a5a98 ;
+  color: var(--white-color);
+}
+.fa-brands {
+  margin-right: 10px;
+}
+
+.fa-square-google-plus{
+background-color: #FFF;
+font-size: 20px;
+margin-right: 10px;
+/* color: #9c9999; */
+}
+
+.fa-facebook-f{
+  font-size: 14px;
+  margin-right: 10px;
+}
+.fa-brands fa-square-google-plus{
+  color: #999 ;
+}
+.auth-form__socials--google{
+color: #666;
 }

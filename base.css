@@ -64,7 +64,7 @@ p {
   /* width: 500px;
   min-height: 440px; */
   margin: auto;
-  background-color: var(--white-color);
+  
   position: relative;
   z-index: 1;
   border-radius: 5px;
@@ -83,6 +83,9 @@ p {
   cursor: pointer;
   color: var(--text-color);
   background-color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .btn.btn--primary{
   background-color: var(--primary-color) !important;
@@ -94,6 +97,11 @@ p {
   background-color:#999 ;
   color: #ccc;
 }
-.btn:hover{
+.btn.btn--normal:hover{
   background-color: rgba(0, 0, 0, 0.05);
+}
+.btn.btn--size-s {
+  height: 30px;
+  font-size: 12px;
+  width: 210px;
 }
