@@ -433,6 +433,7 @@ text-align: right;
   top: 100%;
   width: 168px;
   list-style: none;
+  box-shadow: 0 0 ;
 }
 .header__search-option-item span {
 font-size: 1.4rem;
