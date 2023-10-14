@@ -779,6 +779,9 @@ nav.header__navbar {
 .app__container {
   background-color: #f5f5f5;
 }
+.app__content {
+  padding-top: 36px;
+}
 .category {
   background-color: var(--white-color);
   border-radius: 2px;
@@ -802,8 +805,7 @@ nav.header__navbar {
   padding: 0 0 8px 0;
   margin-left: 9px;
 }
-.category-item {
-}
+
 .category-item--active .category-item__link {
   color: var(--primary-color);
 }
@@ -831,3 +833,30 @@ content: "";
   color: var(--primary-color);
   right: -4px;
 }
+
+
+/* Home sort + filter */
+.home-filter {
+  background-color: rgba(0, 0, 0, 0.04);
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  padding: 12px 22px;
+  border-radius: 2px;
+  position: relative;
+}
+.home-filter__page {
+  display: flex;
+  align-items: center;
+}
+.home-filter__label {
+  font-size: 1.4rem;
+  color: #555;
+  margin-right:16px ;
+
+}
+.home-filter__btn {
+  margin-right: 12px;
+  min-width: 90px !important ;
+}
+
