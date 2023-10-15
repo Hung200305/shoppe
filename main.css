@@ -599,7 +599,6 @@ nav.header__navbar {
   display: none;
   color: var(--text-color);
 }
-
 .header__cart-list-item {
   padding-left: 0;
   list-style: none;
@@ -612,12 +611,9 @@ nav.header__navbar {
   height: 42px;
   margin: 12px;
 }
-.header__cart-item-info {
-}
 .header__cart-item-head {
   display: flex;
 }
-
 .header__search-input-wrap {
   flex: 1;
   height: 100%;
@@ -887,15 +883,13 @@ nav.header__navbar {
   font-size: 1rem;
   color: #555;
 }
-.home-filter__page-btn--disable .home-filter__page-icon{
+.home-filter__page-btn--disable .home-filter__page-icon {
   color: #ccc;
-
 }
 .home-filter__page-btn:first-child {
-border-right: 1px solid #eee;
-
+  border-right: 1px solid #eee;
 }
-.home-filter__page-btn--disable{
+.home-filter__page-btn--disable {
   background-color: #f9f9f9;
   cursor: default;
 }
