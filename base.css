@@ -4,7 +4,7 @@
   --text-color: #333;
   --primary-color: #ee4d2d;
   --border-color: #dbdbdb;
-
+  --star-gold-color:#ffce3e;
   --navbar-height: 34px;
   --header-height: 119px;
   --header-with-search-height: calc(
@@ -36,16 +36,17 @@ p {
   margin-left: 3.6667%;
 }
 .grid__column-2-4 {
-   padding-left: 5px;
+  padding-left: 12px;
   padding-right: 5px;
   width: 20%;
-  margin-left: 3.6667%;
+  /* margin-left: 3.6667%; */
 }
 .grid__column-10 {
   padding-left: 5px;
   padding-right: 5px;
   width: 83.3333%;
   /* margin-right: 10.3333%; */
+  /* margin-left: 0.6667%; */
 }
 
 /* Responsive */
@@ -181,15 +182,15 @@ p {
   margin-top: 10px;
   display: none;
 }
-.select-input__item::after{
-display: block;
-/* background-color: #ee4d2d; */
-position: absolute;
-top: -15px;
-right: 0;
-width: 224px;
-height: 30px;
-content: '';
+.select-input__item::after {
+  display: block;
+  /* background-color: #ee4d2d; */
+  position: absolute;
+  top: -15px;
+  right: 0;
+  width: 224px;
+  height: 30px;
+  content: '';
 }
 .select-input:hover .select-input__list {
   display: block;
