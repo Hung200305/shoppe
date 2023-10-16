@@ -751,6 +751,7 @@ nav.header__navbar {
   list-style: none;
   text-decoration: none;
   margin: 6px 0 0;
+  z-index: 0;
 }
 .header__search-history-item {
   height: 38px;
