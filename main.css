@@ -549,7 +549,7 @@ nav.header__navbar {
   /* display: none;  */
   animation: fadeIn ease-in 0.2s;
   cursor: default;
-  z-index: 1;
+  z-index: 11;
 }
 .header__cart-list::after {
   content: '';
@@ -745,6 +745,7 @@ nav.header__navbar {
   /* height: 100%; */
   display: none;
   overflow: hidden;
+  z-index: 10;
 }
 .header__search-history-heading {
   margin: 6px 12px;
