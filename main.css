@@ -1132,7 +1132,17 @@ i.home-product-item__like-icon-fill {
   display: flex;
   flex-direction: column;
   /* justify-content:space-around; */
-  align-items:center;
+  align-items: center;
   padding-top: 10px;
   gap: 2px;
+}
+.footer__bottom {
+  background-color: #f5f5f5;
+  min-height: 48px;
+}
+.footer__text {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  padding-top: 16px;
 }
